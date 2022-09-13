@@ -78,3 +78,16 @@ img:hover{
 .klik a:hover {
     background-color: #816797;
 }
+
+.klikmedia a {
+    background-color: #51557E;
+    font-size: 15px;
+    padding: 8px 15px;
+    margin: 20px;
+    border-radius: 8px ;
+    display: block;
+    margin-right: 45%;
+    margin-left: 45%;
+    text-align: center;
+    color: #ffffff;
+}
