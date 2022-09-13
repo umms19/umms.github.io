@@ -1,22 +1,80 @@
-*{
-    padding: 0;
-    margin: 0;
+.judul {
+        text-align: center;
+        margin-top: 10px;
+        color: #FEF5AC;
+}
+a {
+    text-decoration: none;
+}
+.kepala-tabel {
+    background-color: #FEF5AC;
+}
+.tabel  {
+ border-collapse: collapse;
+ width: 95%;
+ margin-left: 32px;
+} 
+body {
+    background-color: #5F6F94;
 }
 
-td, th{
-    border: 1px solid;
-    text-align: left;
-    padding: 10px;
+td,
+th {
+        border: 2px solid #ffffff;
+        text-align: center;
+        padding: 10px;
+        border-collapse: collapse;
+        cursor: pointer;
+        color: #D6D5A8;
+}
+th:hover {
+    background-color: #816797;
+}
+td:hover {
+        background-color: #816797;       
+}
 
+h1{
+    color: rgb(255, 255, 255);
+    cursor:pointer;
+    transition: 0.2s;
+}
+.judul {
+    text-align: center;
+    margin: 20px;
+}
+body {
+    background-color: #1B2430;
+}
+img { 
+width: 5cm;
+border-radius: 8px;
+box-shadow: 1 px 1px 4px gray;
+padding: 5px;
+background: white;
+transition: .2s;
+display: block;
+margin: 20px;
+opacity: 75%;
+cursor: pointer;
+margin-left: auto;
+margin-right: auto;
+}
+img:hover{
+    transform: scale(1.2);
+    opacity: 100%;
+    box-shadow: 1px 1px 6px rgb(10, 181, 187);
+}
 
+.klik a {
+    background-color: #51557E;
+    font-size: 15px;
+    padding: 8px 15px;
+    margin: 20px;
+    border-radius: 8px ;
+    color: antiquewhite;
+}
 
-
-
-
-
-
-
-    .nama{
-        text-align: ;
-    }
+.klik a:hover {
+    background-color: #816797;
 }
